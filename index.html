@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeonCity AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌆 NeonCity AI</h1>
+    <p>Выберите модель и введите запрос</p>
+    
+    <select id="model">
+      <option value="stabilityai/stable-diffusion-2-1">SD 2.1</option>
+      <option value="dreamlike-art/dreamlike-photoreal-2.0">Фотореализм</option>
+      <option value="prompthero/openjourney">OpenJourney</option>
+    </select>
+    
+    <input type="text" id="prompt" placeholder="Например: neon city, rain, cyberpunk">
+    <button id="generate">Сгенерировать</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
