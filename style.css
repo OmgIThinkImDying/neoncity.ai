@@ -1,0 +1,32 @@
+body {
+  background: #0b0e1a;
+  color: #fff;
+  font-family: -apple-system, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+select, input, button {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background: #1e2335;
+  color: #fff;
+}
+button {
+  background: #6c5ce7;
+  font-weight: bold;
+  cursor: pointer;
+}
+#result img {
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 16px;
+}
